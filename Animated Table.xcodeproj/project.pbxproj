@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B0926F1171FCB4500339253 /* CustomCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0926F0171FCB4500339253 /* CustomCell1.m */; };
 		9B7A9866171E9E8F00393562 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7A9865171E9E8F00393562 /* UIKit.framework */; };
 		9B7A9868171E9E8F00393562 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7A9867171E9E8F00393562 /* Foundation.framework */; };
 		9B7A986A171E9E8F00393562 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7A9869171E9E8F00393562 /* CoreGraphics.framework */; };
@@ -18,9 +19,14 @@
 		9B7A987C171E9E8F00393562 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7A987B171E9E8F00393562 /* Default-568h@2x.png */; };
 		9B7A987F171E9E8F00393562 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A987E171E9E8F00393562 /* ViewController.m */; };
 		9B7A9882171E9E8F00393562 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B7A9880171E9E8F00393562 /* ViewController.xib */; };
+		9BC4679D171F938F0056FDA8 /* AnimatedTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC4679C171F938F0056FDA8 /* AnimatedTableCell.m */; };
+		9BC467A1171F998D0056FDA8 /* UIView+Positioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC467A0171F998D0056FDA8 /* UIView+Positioning.m */; };
+		9BC467A4171F9B540056FDA8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC467A2171F9B490056FDA8 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B0926EF171FCB4500339253 /* CustomCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell1.h; sourceTree = "<group>"; };
+		9B0926F0171FCB4500339253 /* CustomCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell1.m; sourceTree = "<group>"; };
 		9B7A9862171E9E8F00393562 /* Animated Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animated Table.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7A9865171E9E8F00393562 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9B7A9867171E9E8F00393562 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +43,11 @@
 		9B7A987D171E9E8F00393562 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9B7A987E171E9E8F00393562 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9B7A9881171E9E8F00393562 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		9BC4679B171F938F0056FDA8 /* AnimatedTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedTableCell.h; sourceTree = "<group>"; };
+		9BC4679C171F938F0056FDA8 /* AnimatedTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedTableCell.m; sourceTree = "<group>"; };
+		9BC4679F171F998D0056FDA8 /* UIView+Positioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Positioning.h"; sourceTree = "<group>"; };
+		9BC467A0171F998D0056FDA8 /* UIView+Positioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Positioning.m"; sourceTree = "<group>"; };
+		9BC467A2171F9B490056FDA8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +56,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B7A9866171E9E8F00393562 /* UIKit.framework in Frameworks */,
+				9BC467A4171F9B540056FDA8 /* QuartzCore.framework in Frameworks */,
 				9B7A9868171E9E8F00393562 /* Foundation.framework in Frameworks */,
 				9B7A986A171E9E8F00393562 /* CoreGraphics.framework in Frameworks */,
 			);
@@ -73,6 +85,7 @@
 		9B7A9864171E9E8F00393562 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9BC467A2171F9B490056FDA8 /* QuartzCore.framework */,
 				9B7A9865171E9E8F00393562 /* UIKit.framework */,
 				9B7A9867171E9E8F00393562 /* Foundation.framework */,
 				9B7A9869171E9E8F00393562 /* CoreGraphics.framework */,
@@ -87,6 +100,12 @@
 				9B7A9875171E9E8F00393562 /* AppDelegate.m */,
 				9B7A987D171E9E8F00393562 /* ViewController.h */,
 				9B7A987E171E9E8F00393562 /* ViewController.m */,
+				9B0926EF171FCB4500339253 /* CustomCell1.h */,
+				9B0926F0171FCB4500339253 /* CustomCell1.m */,
+				9BC4679B171F938F0056FDA8 /* AnimatedTableCell.h */,
+				9BC4679C171F938F0056FDA8 /* AnimatedTableCell.m */,
+				9BC4679F171F998D0056FDA8 /* UIView+Positioning.h */,
+				9BC467A0171F998D0056FDA8 /* UIView+Positioning.m */,
 				9B7A9880171E9E8F00393562 /* ViewController.xib */,
 				9B7A986C171E9E8F00393562 /* Supporting Files */,
 			);
@@ -176,6 +195,9 @@
 				9B7A9872171E9E8F00393562 /* main.m in Sources */,
 				9B7A9876171E9E8F00393562 /* AppDelegate.m in Sources */,
 				9B7A987F171E9E8F00393562 /* ViewController.m in Sources */,
+				9BC4679D171F938F0056FDA8 /* AnimatedTableCell.m in Sources */,
+				9BC467A1171F998D0056FDA8 /* UIView+Positioning.m in Sources */,
+				9B0926F1171FCB4500339253 /* CustomCell1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +320,7 @@
 				9B7A9887171E9E8F00393562 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
