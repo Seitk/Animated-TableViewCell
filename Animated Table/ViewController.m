@@ -17,6 +17,7 @@
 @end
 
 @implementation ViewController
+@synthesize table = _table;
 
 - (void)viewDidLoad
 {
@@ -25,11 +26,14 @@
     
     CGRect screenFrame = [[UIScreen mainScreen] bounds];
     
-    UITableView *table = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, screenFrame.size.width, screenFrame.size.height) style:UITableViewStylePlain];
-    table.dataSource = self;
-    table.delegate = self;
-    table.separatorStyle = UITableViewCellSeparatorStyleNone;
-    [self.view addSubview:table];
+    UIBarButtonItem *btnReset = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(replayAnimation)];
+    self.navigationItem.rightBarButtonItem = btnReset;
+    
+    _table = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, screenFrame.size.width, screenFrame.size.height) style:UITableViewStylePlain];
+    _table.dataSource = self;
+    _table.delegate = self;
+    _table.separatorStyle = UITableViewCellSeparatorStyleNone;
+    [self.view addSubview:_table];
 }
 
 
@@ -86,6 +90,11 @@
         else
             [atCell pushCellWithAnimation:YES direction:@"right"];
     }
+}
+
+- (void) replayAnimation
+{
+    [self startTableViewAnimation:_table];
 }
 
 #pragma mark -

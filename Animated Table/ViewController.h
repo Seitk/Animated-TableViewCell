@@ -13,4 +13,6 @@
     bool tableAnimated;
 }
 
+@property (nonatomic,strong) UITableView *table;
+
 @end
