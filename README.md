@@ -1,4 +1,4 @@
-Animated-TableView
+Animated-TableViewCell
 ==================
 
 A example project with Animated Cells
