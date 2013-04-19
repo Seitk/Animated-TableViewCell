@@ -17,7 +17,7 @@ Function
 \- (void) popCellWithAnimation:(bool)animated;  
 \- (void) popCellWithAnimation:(bool)animated duration:(float)duration;
 
-![ScreenShot](https://github.com/Seitk/Animated-TableView/blob/master/Animated%20TableVieiwCell/screenshot1.png?raw=true) &nbsp; ![ScreenShot](https://github.com/Seitk/Animated-TableView/blob/master/Animated%20TableVieiwCell/screenshot2.png?raw=true)
+![ScreenShot](https://github.com/Seitk/Animated-TableViewCell/blob/master/Animated%20Table/screenshot1.png?raw=true) &nbsp; ![ScreenShot](https://github.com/Seitk/Animated-TableViewCell/blob/master/Animated%20Table/screenshot2.png?raw=true)
 
 Contribute  
 I'd love to include your contributions. Feel free to improve it, send comments or suggestions. Please let me know if you have great idea on it.
